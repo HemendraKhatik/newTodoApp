@@ -1,0 +1,83 @@
+.container {
+  width: 100%;
+  height: 100vh;
+  background-color: #e3e9ff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.todoHeader {
+  width: 50%;
+  height: 10vh;
+  background-color: #af7eea;
+}
+
+.todosContainer {
+  width: 50%;
+  min-height: 400px;
+  background-color: #ffffff;
+  margin-top: 50px;
+  position: relative;
+  padding: 40px;
+}
+
+
+.addNewTask {
+  width: 100%;
+  height: 70px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  margin-bottom: -35px;
+}
+
+.addBtn {
+  width: 200px;
+  height: 100%; /* 70px */
+  background-color: #af7eea;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  font-size: 22px;
+}
+
+.addBtn:hover {
+  opacity: 0.9;
+}
+
+
+.task{
+    width: 100%;
+    height: 40px;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:10px;
+}
+
+.checkbox{
+    width: 24px;
+    height: 24px;
+    background-color: green;
+}
+
+.todo{
+    flex:1;
+    font-size: 22px;
+}
+
+.icon{
+    width: 34px;
+    height: 34px;
+}
+
+.icon:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
